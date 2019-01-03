@@ -263,15 +263,17 @@ header {
 #member-benefits {
   background-image: url("../img/bg-gradient-triangle.png");
   background-repeat: no-repeat;
-  background-size: auto auto;
-  background-position: right bottom; }
-  #member-benefits p {
+  background-size: auto 65%;
+  background-position: right bottom;
+  padding-bottom: 10px; }
+  #member-benefits .bottom-50 {
     margin-bottom: 50px; }
   #member-benefits ul li {
     margin-bottom: 30px; }
   #member-benefits .text-muted {
     color: #ffffff;
-    font-size: 12px; }
+    font-size: 12px;
+    margin-bottom: 0; }
 
 .text-primary {
   color: #000000; }

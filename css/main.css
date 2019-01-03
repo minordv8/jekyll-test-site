@@ -275,6 +275,24 @@ header {
     font-size: 12px;
     margin-bottom: 0; }
 
+#products {
+  background-image: url("../img/bg-blue-border.png");
+  background-repeat: repeat-x;
+  background-size: auto auto;
+  background-position: center bottom;
+  padding-bottom: 30px; }
+  #products .list-group {
+    margin-bottom: 0; }
+    #products .list-group .list-group-item {
+      border-width: 0;
+      min-height: 50px; }
+      #products .list-group .list-group-item img {
+        margin-right: 20px; }
+      #products .list-group .list-group-item .list-group-item-text {
+        line-height: 26px;
+        padding-right: 20px;
+        max-width: 560px; }
+
 .text-primary {
   color: #000000; }
 

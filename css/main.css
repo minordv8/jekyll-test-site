@@ -104,6 +104,17 @@ aside {
 .no-padding {
   padding: 0; }
 
+.list-group {
+  margin-bottom: 0; }
+  .list-group .list-group-item {
+    border-width: 0;
+    min-height: 50px; }
+    .list-group .list-group-item img {
+      margin-right: 20px; }
+    .list-group .list-group-item .list-group-item-text {
+      line-height: 26px;
+      padding-right: 20px; }
+
 .navbar-default {
   background-color: white;
   border-color: rgba(16, 47, 82, 0.5);
@@ -280,16 +291,6 @@ header {
     font-size: 12px;
     margin-bottom: 0; }
 
-#products .list-group {
-  margin-bottom: 0; }
-  #products .list-group .list-group-item {
-    border-width: 0;
-    min-height: 50px; }
-    #products .list-group .list-group-item img {
-      margin-right: 20px; }
-    #products .list-group .list-group-item .list-group-item-text {
-      line-height: 26px;
-      padding-right: 20px; }
 #products .top-bg {
   background-image: url("../img/bg-blue-border.png");
   background-repeat: repeat-x;
@@ -312,6 +313,14 @@ header {
   #products .bottom-bg .text-muted {
     margin-top: 20px;
     margin-bottom: 10px; }
+
+#what-to-expect .top-bg {
+  background-image: url("../img/bg-triangle-top-right.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: top right; }
+  #what-to-expect .top-bg .list-group .list-group-item {
+    min-height: 70px; }
 
 .text-primary {
   color: #000000; }

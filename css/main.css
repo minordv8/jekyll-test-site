@@ -85,8 +85,15 @@ p {
   background-color: #102F52;
   color: white; }
 
+.text-white {
+  color: #ffffff; }
+
 .text-faded {
   color: rgba(255, 255, 255, 0.7); }
+
+.text-muted {
+  color: #ffffff;
+  font-size: 12px; }
 
 section {
   padding: 155px 0; }
@@ -252,8 +259,6 @@ header {
             background-image: url("../img/lightning.svg");
             background-size: 72px 72px; }
         header .sunrun-stats-block .text-muted {
-          color: #ffffff;
-          font-size: 12px;
           margin-bottom: 10px;
           margin-top: 20px; } }
 
@@ -275,23 +280,38 @@ header {
     font-size: 12px;
     margin-bottom: 0; }
 
-#products {
+#products .list-group {
+  margin-bottom: 0; }
+  #products .list-group .list-group-item {
+    border-width: 0;
+    min-height: 50px; }
+    #products .list-group .list-group-item img {
+      margin-right: 20px; }
+    #products .list-group .list-group-item .list-group-item-text {
+      line-height: 26px;
+      padding-right: 20px; }
+#products .top-bg {
   background-image: url("../img/bg-blue-border.png");
   background-repeat: repeat-x;
   background-size: auto auto;
   background-position: center bottom;
   padding-bottom: 30px; }
-  #products .list-group {
-    margin-bottom: 0; }
-    #products .list-group .list-group-item {
-      border-width: 0;
-      min-height: 50px; }
-      #products .list-group .list-group-item img {
-        margin-right: 20px; }
-      #products .list-group .list-group-item .list-group-item-text {
-        line-height: 26px;
-        padding-right: 20px;
-        max-width: 560px; }
+  #products .top-bg .list-group .list-group-item .list-group-item-text {
+    max-width: 560px; }
+#products .bottom-bg {
+  background-image: url("../img/bb_az_power-outage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 380px; }
+  #products .bottom-bg h2 {
+    margin-top: 60px; }
+  #products .bottom-bg .list-group .list-group-item {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0); }
+  #products .bottom-bg .text-muted {
+    margin-top: 20px;
+    margin-bottom: 10px; }
 
 .text-primary {
   color: #000000; }

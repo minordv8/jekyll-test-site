@@ -96,7 +96,7 @@ p {
   font-size: 12px; }
 
 section {
-  padding: 155px 0; }
+  padding: 115px 0 40px; }
 
 aside {
   padding: 50px 0; }
@@ -321,6 +321,22 @@ header {
   background-position: top right; }
   #what-to-expect .top-bg .list-group .list-group-item {
     min-height: 70px; }
+
+#waranty .full-bg {
+  background-image: url("../img/bg-waranty.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  min-height: 687px;
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+  #waranty .full-bg .caption-block {
+    background-color: #ffffff;
+    color: #5A5A5A;
+    line-height: 27px;
+    padding: 40px;
+    max-width: 60%; }
 
 .text-primary {
   color: #000000; }

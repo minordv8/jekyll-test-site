@@ -125,20 +125,17 @@ aside {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s; }
-  @media (max-width: 768px) {
-    .navbar-default .navbar-brand {
-      padding-top: 5px; } }
-  @media (min-width: 769px) {
-    .navbar-default .navbar-brand {
-      height: 85px; } }
+  .navbar-default .navbar-brand {
+    padding: 8px; }
   .navbar-default .navbar-notice {
-    padding-top: 20px;
+    padding-top: 10px;
     padding-left: 70px;
     font-weight: 700; }
   .navbar-default .navbar-header .navbar-brand, .navbar-default .navbar-notice {
     color: white;
     font-family: 'lato_regular', Arial, sans-serif;
-    font-size: 12px; }
+    font-size: 10px;
+    line-height: 13px; }
   .navbar-default .nav > li > a,
   .navbar-default .nav > li > a:focus {
     text-transform: uppercase;
@@ -162,10 +159,13 @@ aside {
     text-align: center; }
     .navbar-default .nav.navbar-nav > li {
       float: none;
-      display: inline-block; }
+      display: inline-block;
+      padding-bottom: 0px; }
+      .navbar-default .nav.navbar-nav > li > a {
+        padding-bottom: 0px; }
   @media (min-width: 769px) {
     .navbar-default {
-      min-height: 155px;
+      min-height: 85px;
       background-color: transparent; }
       .navbar-default .nav > li > a,
       .navbar-default .nav > li > a:focus {
